@@ -1,0 +1,8 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+
+# And this file
+!t1000_base4_b16_lr1e3_lrm60_85/
+!t1000_base4_b16_lr1e3_lrm60_85/**
