@@ -75,3 +75,18 @@ This project uses two main types of data:
         # Example: tensorboard --logdir ./runs/debug
         ```
     * Checkpoints (`latest.pt`, `best.pt`) and the configuration (`config.yaml`) will be saved in the specified `output_dir`.
+
+## Baseline Method
+
+We implemented this paper as the `baseline` method:
+
+```
+T. Stewart, M.-A. Drouin, M. Picard, F. Billy Djupkep, A. Orth, and
+G. Gagné, “Using neuromorphic cameras to track quadcopters,” in
+Proceedings of the 2023 International Conference on Neuromorphic
+Systems, ser. ICONS ’23. New York, NY, USA: Association for
+Computing Machinery, 2023. [Online]. Available: https://doi.org/10.
+1145/3589737.3605987
+```
+
+Our implementation can be found here:  https://github.com/overlab-kevin/neuromorphic_quadcopters
